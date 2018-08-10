@@ -1,7 +1,5 @@
-ag
-==
+ORBIT GUI
+=========
 
 .. toctree::
-   :maxdepth: 4
-
-   ag
+   ag.orbit.gui

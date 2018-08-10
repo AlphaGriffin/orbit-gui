@@ -1,10 +1,10 @@
 # Copyright (C) 2017-2018 Alpha Griffin
 # @%@~LICENSE~@%@
 
-"""Alpha Griffin
+"""Alpha Griffin ORBIT
 
-.. module:: ag
-   :synopsis: Alpha Griffin Namespace
+.. module:: ag.orbit
+   :synopsis: Alpha Griffin ORBIT Namespace
 """
 #    (from http://github.com/google/protobuf)
 

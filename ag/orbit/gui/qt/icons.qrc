@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/">
+    <file>icons/logo.png</file>
+    <file>icons/ag.png</file>
+    <file>icons/exit.png</file>
+    <file>icons/preferences.png</file>
+  </qresource>
+</RCC>
