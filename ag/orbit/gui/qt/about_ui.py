@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file './ag/orbit/gui/qt/about.ui'
 #
-# Created by: PyQt5 UI code generator 5.7.1
+# Created by: PyQt5 UI code generator 5.10.1
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -12,14 +12,15 @@ class Ui_About(object):
     def setupUi(self, About):
         About.setObjectName("About")
         About.setWindowModality(QtCore.Qt.ApplicationModal)
-        About.resize(318, 550)
+        About.resize(318, 600)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(About.sizePolicy().hasHeightForWidth())
         About.setSizePolicy(sizePolicy)
-        About.setMinimumSize(QtCore.QSize(318, 550))
-        About.setMaximumSize(QtCore.QSize(318, 550))
+        About.setMinimumSize(QtCore.QSize(318, 600))
+        About.setMaximumSize(QtCore.QSize(318, 600))
+        About.setSizeGripEnabled(False)
         About.setModal(True)
         self.verticalLayout = QtWidgets.QVBoxLayout(About)
         self.verticalLayout.setObjectName("verticalLayout")
@@ -37,6 +38,7 @@ class Ui_About(object):
         font.setPointSize(17)
         self.label_2.setFont(font)
         self.label_2.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_2.setWordWrap(True)
         self.label_2.setObjectName("label_2")
         self.verticalLayout.addWidget(self.label_2)
         self.logo = QtWidgets.QLabel(About)
