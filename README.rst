@@ -84,6 +84,8 @@ Dependencies
 - appdirs: https://github.com/ActiveState/appdirs (``pip install appdirs``)
 - BitCash >= 0.5.2.4: https://github.com/sporestack/bitcash (``pip install bitcash\>=0.5.2.4``)
 - PyCrypto: https://github.com/dlitz/pycrypto (``pip install pycrypto``)
+- qrcode: https://pypi.org/project/qrcode (``pip install qrcode``)
+- PIL
 - Qt5
 - *For building documentation (optional):* sphinx and sphinx_rtd_theme (``pip install sphinx sphinx_rtd_theme``)
 

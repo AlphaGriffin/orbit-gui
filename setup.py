@@ -34,6 +34,8 @@ REQUIRE = [                             # package dependencies
             'appdirs',
             'bitcash(>=0.5.2.4)',
             #'Qt5'
+            'qrcode',
+            'PIL'
           ]
 
 DESC    = 'ORBIT Command-Line Interface'

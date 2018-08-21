@@ -1,8 +1,7 @@
 # Copyright (C) 2018 Alpha Griffin
 # @%@~LICENSE~@%@
 
-from .. import __version__
-from ...qt.wallet.password_ui import Ui_Password
+from ..qt.wallet.password_ui import Ui_Password
 
 from PyQt5.QtCore import pyqtSlot, pyqtSignal
 from PyQt5.QtWidgets import QDialog

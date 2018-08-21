@@ -4,5 +4,6 @@
     <file>icons/ag.png</file>
     <file>icons/exit.png</file>
     <file>icons/preferences.png</file>
+    <file>icons/refresh.png</file>
   </qresource>
 </RCC>
