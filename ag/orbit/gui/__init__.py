@@ -17,6 +17,7 @@ print ("ORBIT Graphical User Interface version %s" % (__version__))
 
 from .qt.main_ui import Ui_Main
 from .about import About
+from .transaction import Transaction
 from .wallet.password import Password
 from .wallet.key import ShowKey
 from .wallet.create import NewWallet
@@ -32,6 +33,7 @@ from decimal import Decimal
 
 class Main(QMainWindow, Ui_Main):
     cashUpdated = pyqtSignal(int)
+    broadcasted = pyqtSignal(str)
 
     def __init__(self):
         QMainWindow.__init__(self, None)
@@ -42,6 +44,7 @@ class Main(QMainWindow, Ui_Main):
         self.about = About(self)
 
         self.cashUpdated.connect(self.set_cash_balance)
+        self.broadcasted.connect(self.on_broadcast)
 
         self.wallet = None
         self.reload_wallets()
@@ -157,4 +160,13 @@ class Main(QMainWindow, Ui_Main):
     def on_actionClose_triggered(self):
         self.wallet = None
         self.wallets.setCurrentIndex(0)
+
+    @pyqtSlot(str)
+    def on_broadcast(self, txid):
+        tx = Transaction(self, txid)
+        tx.show()
+        tx.raise_()
+        tx.activateWindow()
+
+        self.on_refreshCashButton_clicked()
 
