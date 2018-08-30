@@ -15,13 +15,13 @@ defined at https://github.com/AlphaGriffin/orbit
 from .__version__ import __version__
 print ("ORBIT Graphical User Interface version %s" % (__version__))
 
-from .qt.main_ui import Ui_Main
-from .about import About
-from .transaction import Transaction
-from .wallet.password import Password
-from .wallet.key import ShowKey
-from .wallet.create import NewWallet
-from . import cash
+from ag.orbit.gui.qt.main_ui import Ui_Main
+from ag.orbit.gui.about import About
+from ag.orbit.gui.transaction import Transaction
+from ag.orbit.gui.wallet.password import Password
+from ag.orbit.gui.wallet.key import ShowKey
+from ag.orbit.gui.wallet.create import NewWallet
+from ag.orbit.gui import cash
 
 from ag.orbit.wallet import list as list_wallets, path, access
 

@@ -1,9 +1,9 @@
 # Copyright (C) 2018 Alpha Griffin
 # @%@~LICENSE~@%@
 
-from .qt.cash.receive_ui import Ui_Receive
-from .qt.cash.send_ui import Ui_Send
-from .qt.cash.confirm_ui import Ui_Confirm
+from ag.orbit.gui.qt.cash.receive_ui import Ui_Receive
+from ag.orbit.gui.qt.cash.send_ui import Ui_Send
+from ag.orbit.gui.qt.cash.confirm_ui import Ui_Confirm
 
 from PyQt5.Qt import QApplication, QImage, QPixmap
 from PyQt5.QtCore import QThread, pyqtSlot, pyqtSignal

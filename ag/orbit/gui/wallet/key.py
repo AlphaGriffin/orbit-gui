@@ -1,7 +1,7 @@
 # Copyright (C) 2018 Alpha Griffin
 # @%@~LICENSE~@%@
 
-from ..qt.wallet.key_ui import Ui_ShowKey
+from ag.orbit.gui.qt.wallet.key_ui import Ui_ShowKey
 
 from PyQt5.Qt import QApplication
 from PyQt5.QtCore import pyqtSlot, pyqtSignal

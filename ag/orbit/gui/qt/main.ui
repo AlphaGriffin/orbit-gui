@@ -375,7 +375,7 @@
      <x>0</x>
      <y>0</y>
      <width>633</width>
-     <height>36</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -405,8 +405,24 @@
     <addaction name="separator"/>
     <addaction name="actionRemove"/>
    </widget>
+   <widget class="QMenu" name="menuNetwork">
+    <property name="title">
+     <string>Network</string>
+    </property>
+    <widget class="QMenu" name="menuBitCash">
+     <property name="title">
+      <string>BitCash</string>
+     </property>
+     <addaction name="actionBitPay"/>
+     <addaction name="actionBlockDozer"/>
+    </widget>
+    <addaction name="menuBitCash"/>
+    <addaction name="actionPeers"/>
+    <addaction name="actionPool"/>
+   </widget>
    <addaction name="menuFile"/>
    <addaction name="menuWallet"/>
+   <addaction name="menuNetwork"/>
    <addaction name="menuHelp"/>
   </widget>
   <widget class="QStatusBar" name="status"/>
@@ -464,6 +480,50 @@
   <action name="actionSet_Password">
    <property name="text">
     <string>&amp;Set Password...</string>
+   </property>
+  </action>
+  <action name="actionBitPay">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>BitPay</string>
+   </property>
+  </action>
+  <action name="actionBlockDozer">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>BlockDozer</string>
+   </property>
+  </action>
+  <action name="actionPeers">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Peers</string>
+   </property>
+  </action>
+  <action name="actionPool">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Pool...</string>
    </property>
   </action>
  </widget>

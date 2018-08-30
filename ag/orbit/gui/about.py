@@ -1,8 +1,8 @@
 # Copyright (C) 2018 Alpha Griffin
 # @%@~LICENSE~@%@
 
-from . import __version__
-from .qt.about_ui import Ui_About
+from ag.orbit.gui import __version__
+from ag.orbit.gui.qt.about_ui import Ui_About
 
 from PyQt5.QtCore import pyqtSlot, pyqtSignal
 from PyQt5.QtWidgets import QDialog

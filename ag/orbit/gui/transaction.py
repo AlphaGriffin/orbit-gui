@@ -1,7 +1,7 @@
 # Copyright (C) 2018 Alpha Griffin
 # @%@~LICENSE~@%@
 
-from .qt.transaction_ui import Ui_Transaction
+from ag.orbit.gui.qt.transaction_ui import Ui_Transaction
 
 from PyQt5.Qt import QApplication
 from PyQt5.QtCore import pyqtSlot

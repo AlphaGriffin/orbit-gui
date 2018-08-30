@@ -1,8 +1,8 @@
 # Copyright (C) 2018 Alpha Griffin
 # @%@~LICENSE~@%@
 
-from ..qt.wallet.create_ui import Ui_NewWallet
-from ..qt.wallet.unencrypted_ui import Ui_Unencrypted
+from ag.orbit.gui.qt.wallet.create_ui import Ui_NewWallet
+from ag.orbit.gui.qt.wallet.unencrypted_ui import Ui_Unencrypted
 
 from ag.orbit.wallet import path, create
 

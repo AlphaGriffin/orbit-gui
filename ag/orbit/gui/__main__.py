@@ -1,7 +1,7 @@
 # Copyright (C) 2018 Alpha Griffin
 # @%@~LICENSE~@%@
 
-from . import Main
+from ag.orbit.gui import Main
 
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtCore import Qt
